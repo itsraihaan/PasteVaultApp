@@ -54,7 +54,7 @@ const pasteSlice = createSlice({
         // Update to localstorage
         localStorage.setItem("pastes", JSON.stringify(state.pastes))
         // show toast
-        toast.success("Paste deleted")
+        // toast.success("Paste deleted")
       }
     },
     resetPaste: (state) => {
